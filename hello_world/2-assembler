@@ -1,0 +1,2 @@
+#!/bin/bash
+gcc -S prueba.c -o "${CFILE%.c}.s"
