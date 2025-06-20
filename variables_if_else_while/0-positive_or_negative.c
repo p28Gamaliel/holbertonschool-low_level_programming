@@ -15,11 +15,11 @@ int main(void)
 	n = rand() - RAND_MAX / 2;
 
 	if (n > 0)
-		printf("%d es positivo\n", n);
+		printf("%d is positive\n", n);
 	else if (n == 0)
-		printf("%d es cero\n", n);
+		printf("%d is zero\n", n);
 	else
-		printf("%d es negativo\n", n);
+		printf("%d is negative\n", n);
 
 	return (0);
 }
