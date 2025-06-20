@@ -4,7 +4,7 @@
 
 /**
  * main - Asigna un numero aleatorio a la variable n,
- * luego imprime si el n√mero es positivo, cero o negativo.
+ * luego imprime si el numero es positivo, cero o negativo.
  * Return: Siempre 0 (exito)
  */
 int main(void)
