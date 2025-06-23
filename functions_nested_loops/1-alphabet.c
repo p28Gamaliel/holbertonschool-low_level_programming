@@ -1,7 +1,7 @@
 #include "main.h"
 
 /**
- * print_alphabet - imprime el alfabeto en minusculas, seguido de una nueva linea
+ * print_alphabet - imprime el alfabeto en minusculas
  *
  * Return: void
  */
