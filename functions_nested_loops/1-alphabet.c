@@ -1,11 +1,11 @@
 #include "main.h"
 
 /**
- * void - imprime el alfabeto en minusculas, seguido de una nueva linea
+ * main - imprime el alfabeto en minusculas, seguido de una nueva linea
  *
  * Return: void
  */
-void print_alphabet(void)
+main print_alphabet(void)
 {
 	char letra;
 
