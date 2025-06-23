@@ -5,7 +5,7 @@
  *
  * Return: void
  */
-main print_alphabet(void)
+void print_alphabet(void)
 {
 	char letra;
 
