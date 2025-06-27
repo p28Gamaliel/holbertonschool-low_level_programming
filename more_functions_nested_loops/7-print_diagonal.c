@@ -4,7 +4,6 @@
  * print_diagonal - imprime una linea '\' en la terminal
  *
  * @n: numero de lineas que forman la diagonal
- * 
  */
 void print_diagonal(int n)
 {
