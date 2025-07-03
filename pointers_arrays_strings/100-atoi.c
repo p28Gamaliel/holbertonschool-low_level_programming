@@ -10,7 +10,7 @@
 int _atoi(char *s)
 {
 	int i = 0;
-	int num =0;
+	int num = 0;
 	int signo = 1;
 	int encontre = 0;
 
@@ -19,11 +19,11 @@ int _atoi(char *s)
 		if (s[i] == '-' && !encontre)
 		{
 
-			signo = signo *-1;
+			signo = signo * -1;
 		}
 		else if (s[i] >= '0' && s[i] <= '9')
 		{
-			num = num *10 + (s[i] - '0');
+			num = num * 10 + (s[i] - '0');
 			encontre = 1;
 
 		}
