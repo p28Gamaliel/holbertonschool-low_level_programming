@@ -19,7 +19,7 @@ int _atoi(char *s)
 		if (s[i] == '-' && !encontre)
 		{
 
-			signo = signo * -1;
+			signo = signo *-1;
 		}
 		else if (s[i] >= '0' && s[i] <= '9')
 		{
