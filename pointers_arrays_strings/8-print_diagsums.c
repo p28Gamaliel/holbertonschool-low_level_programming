@@ -9,12 +9,11 @@
 void print_diagsums(int *a, int size)
 {
 	int i;
-	long int suma1 = 0;
-	long int suma2 = 0;
+	long int suma1 = 0, suma2 = 0;
 
 	for (i = 0; i < size; i++)
 	{
-		suma1 += a[i * size + 1];
+		suma1 += a[i * size + i];
 
 		suma2 += a[i * size + (size - 1 - i)];
 	}
