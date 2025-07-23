@@ -2,7 +2,7 @@
 #include "lists.h"
 
 /**
- * print_list - imprime los valores de una lista
+ * print_list - imprime los valores de list_s
  * @h: el puntero al siguiente nodo
  *
  * Return: el numero de nodos
