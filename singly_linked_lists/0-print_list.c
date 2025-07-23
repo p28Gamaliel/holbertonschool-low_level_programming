@@ -2,11 +2,11 @@
 #include "lists.h"
 
 /**
- * print_list - imprime los valores de list_s
- * @h: el puntero al siguiente nodo
- *
- * Return: el numero de nodos
+ *print_list - imprime los valores de list_s
+ *@h: el puntero al siguiente node
+ *Return: el numero de nodos
  */
+
 size_t print_list(const list_t *h)
 {
 	size_t count = 0;
