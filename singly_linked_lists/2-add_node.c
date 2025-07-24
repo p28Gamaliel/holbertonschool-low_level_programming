@@ -10,7 +10,6 @@
  *
  * Return: devuelve el nuevo nodo
  */
-
 list_t *add_node(list_t **head, const char *str)
 {
 	list_t *new_node;
@@ -31,7 +30,7 @@ list_t *add_node(list_t **head, const char *str)
 		return (NULL);
 	}
 
-	new_node->len = strlen(str);
+	new_node->len = strdup(str);
 	new_node->next = *head;
 	*head = new_node;
 
