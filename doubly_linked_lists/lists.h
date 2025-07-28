@@ -4,7 +4,7 @@
 
 /**
  *struct list_s - la estructura de la lista
- *@n: variable 
+ *@n: numero entero 
  *@prev: puntero que va apuntando a el nodo anterior
  *@next: puntero que apunta al siguiente nodo
  *Description: apunta a cada nodo avanzando adelante o atras
